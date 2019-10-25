@@ -11,4 +11,3 @@ def test_quadroots_types():
 def test_quadroots_zerocoeff():
     with pytest.raises(ValueError):
         roots.quad_roots(a=0.0)
-Writing test_roots.py
